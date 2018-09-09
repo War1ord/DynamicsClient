@@ -13,8 +13,16 @@ namespace DynamicsClient.Contracts
         /// Gets a dynamics web client.
         /// </summary>
         /// <returns>
-        /// dynamics web client
+        /// Dynamics Web Client
         /// </returns>
         DynamicsWebClientAsync GetDynamicsWebClient();
+
+        /// <summary>
+        /// Gets the dynamics metadata client.
+        /// </summary>
+        /// <returns>
+        /// Dynamics Metadata Client
+        /// </returns>
+        DynamicsMetadataClientAsync GetDynamicsMetadataClient();
     }
 }

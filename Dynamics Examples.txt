@@ -1,0 +1,2 @@
+Dynamics Filter Examples:
+filter="(statusid eq 1 and contains(title, 'test')) or type eq 'test'"

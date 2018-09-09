@@ -22,5 +22,16 @@ namespace DynamicsClient
         {
             return new DynamicsWebClientAsync();
         }
+
+        /// <summary>
+        /// Gets the dynamics metadata client.
+        /// </summary>
+        /// <returns>
+        /// Dynamics Metadata Client
+        /// </returns>
+        public DynamicsMetadataClientAsync GetDynamicsMetadataClient()
+        {
+            return new DynamicsMetadataClientAsync();
+        }
     }
 }

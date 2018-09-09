@@ -6,6 +6,10 @@ namespace DynamicsClient
 {
     using DynamicsClients.Contracts;
 
+    /// <summary>
+    /// The implementation of the Dynamics Web Client with all asynchronous methods.
+    /// </summary>
+    /// <seealso cref="IDynamicsWebClientAsync" />
     public class DynamicsWebClientAsync : IDynamicsWebClientAsync
     {
     }

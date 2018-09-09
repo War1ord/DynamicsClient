@@ -9,7 +9,7 @@ namespace DynamicsClients.Responses
     /// <summary>
     /// The Upsert Response
     /// </summary>
-    /// <seealso cref="Response" />
+    /// <typeparam name="T">The Entity identifier</typeparam>
     public class UpsertResponse : IResponse
     {
     }
