@@ -106,13 +106,13 @@ namespace DynamicsClients.Contracts
             where T : IDynamicsEntityModel, new();
 
         /// <summary>
-        /// Disasociates the asynchronous.
+        /// Disassociates the asynchronous.
         /// </summary>
         /// <typeparam name="T">The entity model</typeparam>
         /// <returns>
-        /// Disasociate Response
+        /// Disassociate Response
         /// </returns>
-        Task<DisasociateResponse> DisasociateAsync<T>()
+        Task<DisasociateResponse> DisassociateAsync<T>()
             where T : IDynamicsEntityModel, new();
 
         /// <summary>
